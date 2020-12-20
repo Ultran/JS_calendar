@@ -11,6 +11,8 @@ class Calendar {
     const calcContainer = document.querySelector(".calendar");
     const buttonPrevious = document.createElement("button");
     const buttonNext = document.createElement("button");
+    buttonPrevious.textContent = "last week";
+    buttonNext.textContent = "next week";
     buttonPrevious.classList.add("button1");
     buttonNext.classList.add("button2");
     calcContainer.appendChild(buttonPrevious);
