@@ -8,5 +8,3 @@
 
 - [x] java script
 - [x] dynamic HTML elements
-
-### Building project - relevant conclusions:
